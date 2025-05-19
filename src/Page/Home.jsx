@@ -5,7 +5,6 @@ import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
-import { Links } from 'react-router-dom';
 
 
 
@@ -42,7 +41,7 @@ const Home = () => {
       <div className='z-10'>
       <img src={img} alt="Side"  className='min-w-3.5 h-5/6 relative  ' /> 
       </div>
-      <div className='w-96 h-96 bg-[#b27aea] rounded-full md:absolute blur-3xl left-[700px] top-36 '>
+<div className='hidden md:block md:w-96 md:h-96 md:bg-[#b27aea] md:rounded-full md:absolute md:blur-3xl md:left-[700px] md:top-36 '>
       </div>
     </div>
   );
