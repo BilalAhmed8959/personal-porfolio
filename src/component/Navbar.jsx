@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
       <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4  bg-[#1A0B2E] relative transition-all">
 
-              <img className='w-20 bg-white'  src={img} alt="dummyLogoColored" />
+              <img className='w-20  bg-[#1A0B2E]'  src={img} alt="dummyLogoColored" />
 
           {/* Desktop Menu */}
           <div className="hidden sm:flex items-center gap-8 text-white">
@@ -39,7 +39,7 @@ const Navbar = () => {
           </button>
 
           {/* Mobile Menu */}
-          <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
+          <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-[#1A0B2E] text-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
           <NavLink to="/">Home</NavLink>
               <NavLink to="/About">About</NavLink>
               <NavLink to="/Projects">Projects</NavLink>
