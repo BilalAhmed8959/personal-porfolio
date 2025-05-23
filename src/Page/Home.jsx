@@ -30,11 +30,16 @@ const Home = () => {
                    /> 
                    </div>
         <div className='flex gap-5 mt-3 '>
-        <FaGithub  className='  w-8 h-8 bg-[#7127BA] cursor-pointer rounded-full p-1' />
+          <a href='https://github.com/BilalAhmed8959' target='_blank'>
+        <FaGithub   className='  w-8 h-8 bg-[#7127BA] cursor-pointer rounded-full p-1' />
+        </a>
         <FaInstagram className='  w-8 h-8 bg-[#7127BA] rounded-full p-1 cursor-pointer' />
+        <a href='https://www.linkedin.com/in/bilal-ahmed-144121289/' target='_blank'>
         <IoLogoLinkedin className='  w-8 h-8 bg-[#7127BA] rounded-full p-1 cursor-pointer'/>
+        </a>
+        <a href='https://www.facebook.com/share/1Kk5JsjJUS/' target='_blank'>
         <FaFacebookSquare className=' w-8 h-8 bg-[#7127BA] rounded-full p-1 cursor-pointer'/>
-
+</a>
         </div>
 
       </div>
